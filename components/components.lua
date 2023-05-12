@@ -35,3 +35,14 @@ end)
 Concord.component("logic_and", function(c,v)
 
 end)
+
+-- 鼠标点击选择原件
+Concord.component("select_state", function(c,v)
+    c.value = v
+end)
+
+Concord.component("rect", function(c,width,height)
+    c.width = width
+    c.height = height
+end)
+
